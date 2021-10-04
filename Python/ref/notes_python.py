@@ -41,3 +41,11 @@ list1 = ['A', 'B', 'C', 'D']
 for i in list1:
 	exec(f"{i} = []")
 
+# Separate the string according to contained spaces to fill a list
+value = string.split()
+
+# Pass max(a, b) to c
+c = (a>b and [a] or [b])[0]
+
+# Create a copy of a list
+list_copy = list_name[:]
