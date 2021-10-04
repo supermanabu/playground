@@ -1,0 +1,3 @@
+First: Download the script get-pip.py from https://bootstrap.pypa.io/get-pip.py
+
+Second: execute python get-pip.py 

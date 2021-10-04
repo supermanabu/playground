@@ -4,6 +4,9 @@ sys.path.append(home + '/Playground/Python/ref')
 import tl
 from read_POSCAR import POSCAR
 
-a = POSCAR('CONTCAR')
-for i in a.atoms_e('N'):
-	print(i)
+import numpy as np
+
+a = 33347
+while a <= 33367:
+	print(a)
+	a += 1

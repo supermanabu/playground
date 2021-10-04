@@ -16,8 +16,8 @@ months_c = [January, February, March, April, May, June, July, August, September,
 months_l = [January, February_2, March, April, May, June, July, August, September, October, November, December]
 
 #! Input parameters
-date_1 = '20100831'
-date_2 = '20210923'
+date_1 = '20190910'
+date_2 = '20210927'
 #? Input parameters
 
 def format_change(date):
