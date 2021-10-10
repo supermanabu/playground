@@ -1,12 +1,12 @@
-import os, sys
+import sys, os
+import numpy as np
 home = os.path.expanduser("~")
 sys.path.append(home + '/Playground/Python/ref')
 import tl
-from read_POSCAR import POSCAR
-
 import numpy as np
+import matplotlib
+matplotlib.rcParams['backend'] = 'SVG'
+import matplotlib.pyplot as plt
 
-a = 5
-b = 1102
-c = (a>b and [a] or [b])[0]
-print(c)
+plt.plot([1,2,3])
+plt.savefig('kankan_2.svg', format='svg')

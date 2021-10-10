@@ -1,11 +1,11 @@
 n = 5
 
-m = 5000
+m = 95
 
 borrow = m * n - m
 
-price1 = 8
-price2 = 10
+price1 = 12
+price2 = 20
 
 total = price2 / price1 * m * n
 
